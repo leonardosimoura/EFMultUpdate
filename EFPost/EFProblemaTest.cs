@@ -8,7 +8,7 @@ using Xunit;
 
 namespace EFPost
 {
-    public class EFSolucaoTest
+    public class EFProblemaTest
     {
         [Fact]
         public void ProblemaSalvarMultiplasVezes()
