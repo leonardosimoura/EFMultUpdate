@@ -18,14 +18,14 @@ namespace EFPost
 
         public override int SaveChanges()
         {
-            var retorno = base.SaveChanges();
+            var entidadesAfetadas = base.SaveChanges();
 
             foreach (var item in ChangeTracker.Entries())
             {
                 item.State = EntityState.Detached;
             }
 
-            return retorno;
+            return entidadesAfetadas;
         }
     }
 }
