@@ -62,7 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EFTests.cs" />
+    <Compile Include="EFProblemaTest.cs" />
+    <Compile Include="EFSolucaoTest.cs" />
     <Compile Include="ProblemaContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SolucaoContext.cs" />
